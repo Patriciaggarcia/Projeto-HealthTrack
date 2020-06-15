@@ -1,0 +1,96 @@
+.fonte2{
+    font-size: 12px;
+}
+.caixa{
+    width: 500px;
+}
+
+html,body{
+    height: 100%;
+}
+.container{
+   height: 100%;
+   align-content: center;
+ 
+}
+
+#menu ul {
+  margin: 0;
+  background-color: black;
+  list-style: none;
+}
+#menu ul li {
+    display: inline;
+ 
+}
+
+#menu ul li a {
+    padding: 8px 12px;
+ display: inline-block;
+ color: white
+}
+
+div.blocos{
+    height: 200px;
+  }
+div.blocos:hover{
+    background-color: rgba(135, 126, 255, 0.986);
+  }
+  img.blocos{
+    height: 70px;
+    width: auto;
+  }
+  img.blocos:hover{
+    height: 88px;
+    width: auto;
+  }
+  a.cor{
+    text-decoration: none;
+  }
+   textarea {
+    /* Para certificar-se que todos os campos de texto têm as mesmas configurações de fonte. Por padrão, textareas ter uma fonte monospace*/
+   width: 100%;
+    
+    /* Para dar o mesmo tamanho a todos os campo de texto */
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.login-page
+{
+    background-image: url('fundo2.png');
+    background-repeat: no-repeat;
+    background-size:100%;
+    bottom: 0;
+    color: black;
+    left: 0;
+    overflow: auto;
+    padding: 3em;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    background-size: cover;
+}
+
+
+/* animação para webkit */
+@-webkit-keyframes fundocor {
+    0%   {background: rgb(158, 245, 226);}
+    25%  {background: rgb(180, 226, 216);}
+    50%  {background: rgb(171, 195, 223);}
+    100% {background: rgba(148, 143, 218, 0.965);}
+}
+
+/* executa a chamada da animação no body */
+body {
+-webkit-animation: fundocor 4s linear 2s infinite alternate; /* chamada para Chrome, Safari, Opera */
+    animation: fundocor 4s linear 2s infinite alternate; /* chamada padrão */
+}
+div.in-cal {
+    width: 390px;
+  }
+
+  .font3 {
+    font-size: 11px;
+    color: gray;
+  }
